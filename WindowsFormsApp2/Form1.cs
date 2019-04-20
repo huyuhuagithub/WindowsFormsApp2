@@ -31,6 +31,10 @@ namespace WindowsFormsApp2
                 {
                     MessageBox.Show("小于60", "提示框");
                 }
+                if (gitint < 10)
+                {
+                    MessageBox.Show("小于10", "提示框");
+                }
             }
             else
             {
